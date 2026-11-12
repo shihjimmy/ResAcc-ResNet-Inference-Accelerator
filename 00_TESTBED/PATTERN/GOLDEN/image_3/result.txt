@@ -1,0 +1,2 @@
+category   0
+confidence 4473779  (= 4.266528)

@@ -1,0 +1,2 @@
+category   8
+confidence 7047623  (= 6.721137)

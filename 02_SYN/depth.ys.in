@@ -1,0 +1,8 @@
+# Longest combinational path (in gate levels) of one module, flattened.
+# TOP is replaced by run_yosys.sh.
+read_verilog -DSYNTHESIS sram_bb.v
+read_verilog -DSYNTHESIS ../01_RTL/engine_ctrl.v ../01_RTL/engine_dp.v ../01_RTL/pe_array.v ../01_RTL/pe.v ../01_RTL/requant_lane.v ../01_RTL/fc_unit.v
+hierarchy -top TOP
+synth -flatten -top TOP
+abc -g AND,NAND,OR,NOR,XOR,XNOR,MUX
+tee -q -o build/depth_TOP.txt ltp -noff

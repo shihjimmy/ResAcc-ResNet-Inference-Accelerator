@@ -1,0 +1,2 @@
+category   6
+confidence 1868192  (= 1.781647)

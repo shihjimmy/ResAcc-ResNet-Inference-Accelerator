@@ -1,0 +1,2 @@
+category   1
+confidence 389771  (= 0.371715)

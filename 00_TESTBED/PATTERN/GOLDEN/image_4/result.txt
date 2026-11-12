@@ -1,0 +1,2 @@
+category   6
+confidence 5475973  (= 5.222295)

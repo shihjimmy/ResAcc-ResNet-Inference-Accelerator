@@ -1,0 +1,2 @@
+category   4
+confidence 970681  (= 0.925714)

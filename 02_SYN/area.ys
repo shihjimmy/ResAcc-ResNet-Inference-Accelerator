@@ -1,0 +1,9 @@
+# Generic-gate area estimate of the whole design (SRAM black-boxed).
+# Run from 02_SYN:  yosys -q area.ys     -> build/area_stat.txt
+read_verilog -DSYNTHESIS sram_bb.v
+read_verilog -DSYNTHESIS ../01_RTL/sync_2ff.v ../01_RTL/reset_sync.v ../01_RTL/async_fifo.v
+read_verilog -DSYNTHESIS ../01_RTL/dram_if.v ../01_RTL/loader.v ../01_RTL/host_if.v ../01_RTL/core.v ../01_RTL/resacc.v
+read_verilog -DSYNTHESIS ../01_RTL/engine.v ../01_RTL/engine_ctrl.v ../01_RTL/engine_dp.v
+read_verilog -DSYNTHESIS ../01_RTL/pe_array.v ../01_RTL/pe.v ../01_RTL/requant_lane.v ../01_RTL/fc_unit.v
+synth -top resacc
+tee -q -o build/area_stat.txt stat

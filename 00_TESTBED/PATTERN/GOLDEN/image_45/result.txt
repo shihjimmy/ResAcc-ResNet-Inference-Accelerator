@@ -1,0 +1,2 @@
+category   9
+confidence 5145431  (= 4.907065)

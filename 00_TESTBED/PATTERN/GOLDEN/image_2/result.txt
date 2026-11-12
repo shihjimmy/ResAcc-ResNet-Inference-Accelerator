@@ -1,0 +1,2 @@
+category   8
+confidence 5461509  (= 5.208501)

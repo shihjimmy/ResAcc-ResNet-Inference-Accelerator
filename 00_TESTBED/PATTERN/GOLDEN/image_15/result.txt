@@ -1,0 +1,2 @@
+category   8
+confidence 2419095  (= 2.307029)

@@ -1,0 +1,2 @@
+category   7
+confidence 6207444  (= 5.919880)

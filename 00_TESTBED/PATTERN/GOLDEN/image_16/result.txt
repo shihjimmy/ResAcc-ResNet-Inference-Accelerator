@@ -1,0 +1,2 @@
+category   5
+confidence 4764921  (= 4.544183)

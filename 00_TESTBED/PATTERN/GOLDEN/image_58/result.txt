@@ -1,0 +1,2 @@
+category   2
+confidence 667693  (= 0.636762)

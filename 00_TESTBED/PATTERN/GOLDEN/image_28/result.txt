@@ -1,0 +1,2 @@
+category   9
+confidence 3875165  (= 3.695645)

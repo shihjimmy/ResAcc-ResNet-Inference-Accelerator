@@ -1,0 +1,2 @@
+category   0
+confidence 957755  (= 0.913386)

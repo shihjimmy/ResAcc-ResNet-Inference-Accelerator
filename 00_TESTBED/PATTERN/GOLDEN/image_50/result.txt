@@ -1,0 +1,2 @@
+category   9
+confidence -606074  (= -0.577997)

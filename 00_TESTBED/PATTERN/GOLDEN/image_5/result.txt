@@ -1,0 +1,2 @@
+category   6
+confidence 3089209  (= 2.946099)

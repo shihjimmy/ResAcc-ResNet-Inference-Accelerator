@@ -1,0 +1,2 @@
+category   3
+confidence 591709  (= 0.564298)

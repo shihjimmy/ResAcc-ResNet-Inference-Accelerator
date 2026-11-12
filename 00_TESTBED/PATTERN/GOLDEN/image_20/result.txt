@@ -1,0 +1,2 @@
+category   7
+confidence 2364021  (= 2.254506)

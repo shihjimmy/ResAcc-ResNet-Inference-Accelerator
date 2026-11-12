@@ -1,0 +1,2 @@
+category   1
+confidence 2533955  (= 2.416568)

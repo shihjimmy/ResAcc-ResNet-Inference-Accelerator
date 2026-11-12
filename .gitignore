@@ -1,0 +1,24 @@
+# simulation / synthesis outputs (regenerate with the scripts in 01_RTL, 00_TESTBED/unit, 02_SYN)
+build/
+*.vvp
+*.vcd
+*.fst
+*.fsdb
+*.lxt
+
+# superseded first RTL version (kept locally only)
+01_RTL/_v1/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

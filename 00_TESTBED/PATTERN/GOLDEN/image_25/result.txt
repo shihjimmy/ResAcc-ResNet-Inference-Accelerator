@@ -1,0 +1,2 @@
+category   2
+confidence 437515  (= 0.417247)
